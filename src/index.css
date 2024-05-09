@@ -20,10 +20,10 @@
   }
 
   * {
-    /* font-family: BeVietnamPro; */
+    font-family: Roboto;
   }
 }
 
 body {
-  @apply bg-black-18;
+  @apply bg-black-18 text-white;
 }
