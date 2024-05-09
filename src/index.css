@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 @layer base {
-  /* @font-face {
-    font-family: BeVietnamPro;
-    font-weight: 600;
+  @font-face {
+    font-family: Roboto;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
-    src: url("/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");
+    src: url("/fonts/Roboto-Bold.ttf") format("truetype");
   }
 
   @font-face {
-    font-family: BeVietnamPro;
+    font-family: Roboto;
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    src: url("/fonts/BeVietnamPro-Regular.ttf") format("truetype");
-  } */
+    src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+  }
 
   * {
     /* font-family: BeVietnamPro; */
@@ -25,5 +25,5 @@
 }
 
 body {
-  @apply bg-black text-slate-100 text-base;
+  @apply bg-black-18;
 }
